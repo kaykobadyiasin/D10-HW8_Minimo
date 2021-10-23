@@ -1,0 +1,70 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+@font-face{
+    src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+    font-family: Ubuntu-Light;
+}
+/*common css*/
+body{
+    margin: 0;
+    padding: 0;
+    color: #626262;
+}
+/*common css*/
+header {
+    /* border: 1px solid; */
+    margin: 50px 0;
+}
+.wrapper{
+    overflow: hidden;
+    width: 80%;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+
+.logo{
+    width: 10%;
+    /*border: 1px solid blue;*/
+    float: left;
+    padding-bottom: 1px;
+
+}
+.logo img{
+    width: 100%;
+    float: left;
+    padding: 12px 0;
+
+}
+.menu {
+    width: 50%;
+    /*border: 1px solid blue;*/
+    float: right;
+    padding: 1px 0;
+}
+.menu ul{
+    float: right;
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-right: 150px;
+
+
+}
+.menu ul li a{
+    font-family: Playfair Display;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+    color: #000000;
+}
+.menu ul li:last-child {
+    margin: 0;
+
+}
